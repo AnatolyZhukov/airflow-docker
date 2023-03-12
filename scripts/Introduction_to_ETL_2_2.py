@@ -1,8 +1,8 @@
 # Импорт необходимых библиотек
 import sqlite3
+
 import pandas as pd
 import requests
-from datetime import date, timedelta
 
 
 def extract_currency(date):
@@ -48,7 +48,7 @@ def send_report():
 
 # Запустите ваш код в функции main
 
-from datetime import date, timedelta
+from datetime import date
 
 # Напишите генерацию дат, так чтобы у вас получился список
 # 2021-01-02, 2021-01-03 ... etc
